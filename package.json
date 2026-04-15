@@ -2,10 +2,10 @@
   "name": "js-search-engine-challenge",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.html",
+  "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
-    "build": "parcel build src/index.html"
+    "build": "parcel build index.html"
   },
   "dependencies": {},
   "devDependencies": {
