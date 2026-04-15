@@ -42,7 +42,7 @@ function showWeather(response) {
   let temperatureElement = document.querySelector(".current-temperature-value");
   cityElement.innerHTML = response.data.city;
   temperatureElement.innerHTML = Math.round(
-    response.data.daily[0].temperature.day
+    response.data.daily[0].temperature.day,
   );
 }
 
